@@ -1,0 +1,156 @@
+body{
+    font-size: "Montserrat",sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15% 9%;
+    
+}
+
+.navbar{
+    padding: 0px 0px 4.5rem 0px;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0px 18px;
+}
+
+.nav-link{
+    font-size: x-large;
+}
+
+
+
+.title-image{
+    width:20%;
+    transform: rotate(22deg);
+    position: absolute;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+h3{
+   font-family: "Montserrat";
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+    cursor: pointer;
+}
+
+#testimonials{
+    padding: 7% 15%;
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+    font-family: "Montserrat";
+}
+
+.testimonials-image{
+    width: 20%;
+    border-radius: 100%;
+    margin: 5%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.press-image{
+    width: 15%;
+   margin: 20px 20px 50px;
+}
+
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.btn-created{
+    width: 100%;
+}
+
+
+/* @media queries code */
+@media (max-width : 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-h3{
+    
+    font-size: 2.8rem;
+    font-family: 'Montserrat';
+    line-height: 1.5;
+}
+
+.Download-button{
+    padding: 10px;
+    margin: 1%;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer-icons{
+    padding: 10px;
+    
+}
+
+.footer-icons:hover{
+    cursor: pointer;
+}
